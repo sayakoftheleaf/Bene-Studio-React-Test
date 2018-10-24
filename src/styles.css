@@ -1,0 +1,84 @@
+.container{
+    margin: 40px;
+}
+
+
+body{
+    margin:0;
+    overflow: scroll;
+}
+
+#textAbove {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 80%;
+}
+
+.wrapper{
+    overflow: auto;
+    display: block;
+    height: auto;
+}
+
+.deleteButton {
+    width:70px;
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 20px;
+    float: right
+}
+
+.singleInput {
+    display: block;
+    height: 100px;
+    width: 100%;
+}
+
+.widthWrapper{
+    width: 80%;
+    min-width: 400px;
+    float:right;
+}
+
+.inputGroup{
+    margin-bottom: 100px;
+}
+
+.bottomButtons{
+    position: fixed;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    background-color: #cbefec;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#submitButton{
+    float: right;
+    margin-right: 40px;
+}
+
+#clearButton{
+    margin-right: 20px;
+    float:right;
+}
+
+@media screen and (min-width: 700px) {
+    #textAbove {
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 20px;
+        float: none;
+        width: 200px;
+    }
+
+    .widthWrapper{
+        width: 60%;
+    }
+
+    .wrapper {
+        display: inline
+    }
+}
+
